@@ -21,17 +21,17 @@ email: string,
 password: string,
 role: string,
 carts: Array de Ids,
-id: string,
+id: string
 
-Games:
+Game:
 title: string,
 description: string,
 brand: string,
 price: number,
-isSold: string,
+isSold: boolean,
 format: string,
 media: string,
-id: string,
+id: string
 
 ## Instalación de dependencias
 
