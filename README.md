@@ -16,6 +16,7 @@ Endopoint: /users, incluye:
 
 User:
 name: string,
+lastName: string,
 email: string,
 password: string,
 role: string,
@@ -25,9 +26,11 @@ id: string,
 Games:
 title: string,
 description: string,
+brand: string,
 price: number,
+isSold: string,
 format: string,
-owner: Id,
+media: string,
 id: string,
 
 ## Instalación de dependencias
